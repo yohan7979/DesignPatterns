@@ -13,10 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\Actor">
+      <UniqueIdentifier>{cdf5fd36-043d-4dbe-80e7-854d4ed00c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Actor">
+      <UniqueIdentifier>{440d7cd4-cbd3-4189-8686-249b1bc82ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Behavior">
+      <UniqueIdentifier>{3e54f97f-f0e9-46ed-ac7d-af3d11baab97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Behavior">
+      <UniqueIdentifier>{9c1ea4f5-172b-4b36-a452-36fb69135fbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>소스 파일\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RedHeadDuck.cpp">
+      <Filter>소스 파일\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberDuck.cpp">
+      <Filter>소스 파일\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>소스 파일\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBehavior.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehavior.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNormal.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNot.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Squeak.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackNormal.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackMute.cpp">
+      <Filter>소스 파일\Behavior</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h">
+      <Filter>헤더 파일\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>헤더 파일\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RedHeadDuck.h">
+      <Filter>헤더 파일\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberDuck.h">
+      <Filter>헤더 파일\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehavior.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNormal.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNot.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Squeak.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackNormal.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackMute.h">
+      <Filter>헤더 파일\Behavior</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

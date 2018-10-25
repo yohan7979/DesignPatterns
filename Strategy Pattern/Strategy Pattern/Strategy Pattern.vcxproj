@@ -77,6 +77,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -98,6 +101,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -115,7 +119,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Duck.cpp" />
+    <ClCompile Include="FlyBehavior.cpp" />
+    <ClCompile Include="FlyNormal.cpp" />
+    <ClCompile Include="FlyNot.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MallardDuck.cpp" />
+    <ClCompile Include="QuackMute.cpp" />
+    <ClCompile Include="QuackNormal.cpp" />
+    <ClCompile Include="QuackBehavior.cpp" />
+    <ClCompile Include="RedHeadDuck.cpp" />
+    <ClCompile Include="RubberDuck.cpp" />
+    <ClCompile Include="Squeak.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h" />
+    <ClInclude Include="FlyBehavior.h" />
+    <ClInclude Include="FlyNormal.h" />
+    <ClInclude Include="FlyNot.h" />
+    <ClInclude Include="MallardDuck.h" />
+    <ClInclude Include="QuackMute.h" />
+    <ClInclude Include="QuackNormal.h" />
+    <ClInclude Include="QuackBehavior.h" />
+    <ClInclude Include="RedHeadDuck.h" />
+    <ClInclude Include="RubberDuck.h" />
+    <ClInclude Include="Squeak.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

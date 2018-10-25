@@ -4,3 +4,10 @@
 *.suo
 *.db-wal
 *.db-shm
+*/Debug/
+*/Release/
+*.tlog
+*.log
+*.pdb
+*.idb
+*.obj
