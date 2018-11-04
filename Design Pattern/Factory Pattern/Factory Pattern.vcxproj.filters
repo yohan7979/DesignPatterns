@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Creator">
+      <UniqueIdentifier>{ea196df9-12fa-40a7-878b-2e3383724aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Creator">
+      <UniqueIdentifier>{c6768e72-8a1e-40d9-9c0f-7590fd93686c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Product">
+      <UniqueIdentifier>{5bbd02f4-99d9-4a71-a328-6ed9259abaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Product">
+      <UniqueIdentifier>{c7078c6a-a98e-4e00-8d90-f1b785e6dd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Factory">
+      <UniqueIdentifier>{1d79b92a-5515-460a-8596-e22c16bbc2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Factory">
+      <UniqueIdentifier>{ce3ac477-c438-425a-aff9-cffe6e0f7618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Product\Pizza">
+      <UniqueIdentifier>{feca206f-05c2-4985-8744-78729528a193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Product\Ingredient">
+      <UniqueIdentifier>{4ee6ce7d-3744-40a2-b476-bd82055f557f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Product\Pizza">
+      <UniqueIdentifier>{da7cce53-f4f9-4fb4-a66e-216c822b1e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Product\Ingredient">
+      <UniqueIdentifier>{e64787c9-c73e-490e-a23d-fa4b40a5e0ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PizzaStore.cpp">
+      <Filter>소스 파일\Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoPizzaStore.cpp">
+      <Filter>소스 파일\Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPizzaStore.cpp">
+      <Filter>소스 파일\Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="IngredientFactory.cpp">
+      <Filter>소스 파일\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoIngredientFactory.cpp">
+      <Filter>소스 파일\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="NYIngredientFactory.cpp">
+      <Filter>소스 파일\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="CheesePizza.cpp">
+      <Filter>소스 파일\Product\Pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="ClamPizza.cpp">
+      <Filter>소스 파일\Product\Pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="PepperoniPizza.cpp">
+      <Filter>소스 파일\Product\Pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza.cpp">
+      <Filter>소스 파일\Product\Pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="VeggiePizza.cpp">
+      <Filter>소스 파일\Product\Pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="Veggies.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheese.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="Clam.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="Dough.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="Pepperoni.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauce.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="ThinCrustDough.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="FreshVeggies.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="FrozenClams.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="FrozenVeggies.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="MarinaraSauce.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="MozzarellaCheese.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="PlumTomatoSauce.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="ReggianoCheese.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="ThickCrustDough.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="SlicedPepperoni.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="FreshClams.cpp">
+      <Filter>소스 파일\Product\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PizzaStore.h">
+      <Filter>헤더 파일\Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoPizzaStore.h">
+      <Filter>헤더 파일\Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="NYPizzaStore.h">
+      <Filter>헤더 파일\Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="IngredientFactory.h">
+      <Filter>헤더 파일\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoIngredientFactory.h">
+      <Filter>헤더 파일\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="NYIngredientFactory.h">
+      <Filter>헤더 파일\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza.h">
+      <Filter>헤더 파일\Product\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheese.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Clam.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Dough.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Pepperoni.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauce.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="Veggies.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="VeggiePizza.h">
+      <Filter>헤더 파일\Product\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="PepperoniPizza.h">
+      <Filter>헤더 파일\Product\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="CheesePizza.h">
+      <Filter>헤더 파일\Product\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="ClamPizza.h">
+      <Filter>헤더 파일\Product\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ThinCrustDough.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="FreshClams.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="FreshVeggies.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="FrozenClams.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="FrozenVeggies.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="MarinaraSauce.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="MozzarellaCheese.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="PlumTomatoSauce.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="ReggianoCheese.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="ThickCrustDough.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="SlicedPepperoni.h">
+      <Filter>헤더 파일\Product\Ingredient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
