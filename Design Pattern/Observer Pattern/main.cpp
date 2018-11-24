@@ -1,19 +1,17 @@
+/** Observer Pattern **/
+
+/** 한 객체의 상태가 바뀌면 그 객체에 의존하는 모든 객체들에게 전파하는 방식으로,
+	One to Many의 의존성을 정의한다.
+
+**/
 
 #include <iostream>
 #include "Observable.h"
 #include "WeatherData.h"
 #include "Observer.h"
 #include "ForecastDisplay.h"
-/** Observer Pattern **/
-
-/** 한 객체의 상태가 바뀌면 그 객체에 의존하는 모든 객체들에게 전파하는 방식으로, 
-	One to Many의 의존성을 정의한다. 
-
-**/
-
 #include "GeneralDisplay.h"
 #include "StatisticsDisplay.h"
-
 using namespace std;
 
 int main(int argc, char* argv[])
