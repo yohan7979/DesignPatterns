@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Collection">
+      <UniqueIdentifier>{b52b9581-5169-4570-b351-e842c17f5049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Collection">
+      <UniqueIdentifier>{d2c20189-ff45-4602-ba0c-8bb3690309bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Client">
+      <UniqueIdentifier>{039335b1-74e2-44ef-917f-796a586de7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Client">
+      <UniqueIdentifier>{8c80855c-55eb-45f2-a4c5-705294a46248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Aggregate">
+      <UniqueIdentifier>{3e65d8b5-b5e1-4a9d-961d-1ab3f1f11bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Aggregate">
+      <UniqueIdentifier>{4713c44c-064c-4987-a4a5-eef1e5e0920f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Iterator">
+      <UniqueIdentifier>{08b03734-3d00-4005-8b8b-1b30517e6a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Iterator">
+      <UniqueIdentifier>{d924a3c5-ee44-45e6-8188-f8afb1f6a292}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>소스 파일\Collection</Filter>
+    </ClCompile>
+    <ClCompile Include="Waitress.cpp">
+      <Filter>소스 파일\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="PancakeHouseMenu.cpp">
+      <Filter>소스 파일\Aggregate</Filter>
+    </ClCompile>
+    <ClCompile Include="DinerMenu.cpp">
+      <Filter>소스 파일\Aggregate</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\Aggregate</Filter>
+    </ClCompile>
+    <ClCompile Include="IteratorClass.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="PancakeIteratorClass.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="DinerIteratorClass.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MenuItem.h">
+      <Filter>헤더 파일\Collection</Filter>
+    </ClInclude>
+    <ClInclude Include="Waitress.h">
+      <Filter>헤더 파일\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="PancakeHouseMenu.h">
+      <Filter>헤더 파일\Aggregate</Filter>
+    </ClInclude>
+    <ClInclude Include="DinerMenu.h">
+      <Filter>헤더 파일\Aggregate</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>헤더 파일\Aggregate</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedlist.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorClass.h">
+      <Filter>헤더 파일\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="PancakeIteratorClass.h">
+      <Filter>헤더 파일\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="DinerIteratorClass.h">
+      <Filter>헤더 파일\Iterator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
