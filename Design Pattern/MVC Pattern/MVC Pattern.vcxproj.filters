@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Model">
+      <UniqueIdentifier>{bbea401a-6437-4e5a-9484-fe80f5ce3624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\View">
+      <UniqueIdentifier>{7e651c40-a5ad-438b-87a0-bef286860b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Controller">
+      <UniqueIdentifier>{9d088a78-840b-43a9-a107-2b87b6dc5fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Model">
+      <UniqueIdentifier>{97f05976-099b-454d-9c87-f98bbcab03b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\View">
+      <UniqueIdentifier>{ad26da20-0b91-4f0f-8345-3db2e1fb8356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Controller">
+      <UniqueIdentifier>{7d32d6f9-b6a6-4440-b470-9fee02cbca3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>소스 파일\View</Filter>
+    </ClCompile>
+    <ClCompile Include="BPMController.cpp">
+      <Filter>소스 파일\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="BeatModel.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="BeatObserver.cpp">
+      <Filter>소스 파일\View</Filter>
+    </ClCompile>
+    <ClCompile Include="BeatView.cpp">
+      <Filter>소스 파일\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>헤더 파일\View</Filter>
+    </ClInclude>
+    <ClInclude Include="BPMController.h">
+      <Filter>헤더 파일\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="BeatModel.h">
+      <Filter>헤더 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="BeatObserver.h">
+      <Filter>헤더 파일\View</Filter>
+    </ClInclude>
+    <ClInclude Include="BeatView.h">
+      <Filter>헤더 파일\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
