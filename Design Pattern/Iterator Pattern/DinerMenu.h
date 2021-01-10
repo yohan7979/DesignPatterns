@@ -1,7 +1,6 @@
 #pragma once
 #include "Menu.h"
 #include "MenuItem.h"
-#include <list>
 using namespace std;
 
 #define MAX_ITEMS 6

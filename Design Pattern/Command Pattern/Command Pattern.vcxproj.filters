@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Command">
+      <UniqueIdentifier>{c63b6994-7daa-46b6-bd93-0b507ec5d85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Command">
+      <UniqueIdentifier>{e91858fe-cc80-4da3-98c1-fe9fc67d5cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Receiver">
+      <UniqueIdentifier>{87f5eab9-7a0b-449b-bd7d-e21efe66600f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Receiver">
+      <UniqueIdentifier>{62f83ca9-e95a-4e0b-9efa-148f4fa2fd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Invoker">
+      <UniqueIdentifier>{a77cc440-3cc9-4ae3-9a6a-a387bf6b01a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Invoker">
+      <UniqueIdentifier>{9a8c5387-0d50-4933-992d-c7d6ece645c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>소스 파일\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteController.cpp">
+      <Filter>소스 파일\Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일\Receiver</Filter>
+    </ClCompile>
+    <ClCompile Include="Command_LightOnOff.cpp">
+      <Filter>소스 파일\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command.h">
+      <Filter>헤더 파일\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteController.h">
+      <Filter>헤더 파일\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>헤더 파일\Receiver</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_LightOnOff.h">
+      <Filter>헤더 파일\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

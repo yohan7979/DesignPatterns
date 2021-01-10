@@ -7,7 +7,7 @@ class CaffeineBeverage
 {
 public:
 	CaffeineBeverage();
-	~CaffeineBeverage();
+	virtual ~CaffeineBeverage();
 
 public:
 	virtual void prepareRecipe() final;	// 템플릿 메소드

@@ -26,7 +26,7 @@ void Observable::NotifyObservers()
 {
 	if (HasChanged())
 	{
-		for (auto& it : observers)
+		for (auto* it : observers)
 		{
 			// Pull 방식 -> Observer가 Getter로 Subject로부터 데이터를 얻어옴. 여기서 직접 보내주지 않는다.
 			it->Update();

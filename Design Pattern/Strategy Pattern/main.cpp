@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 	v.push_back(new RedHeadDuck());
 	v.push_back(new RubberDuck());
 
-	for (auto& it : v)
+	for (auto* it : v)
 	{
 		it->Display();
 		it->PerformFly();
