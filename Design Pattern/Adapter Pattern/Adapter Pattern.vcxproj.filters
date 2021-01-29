@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Adapter">
+      <UniqueIdentifier>{d150c1b9-5891-47eb-8fed-b9544151ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Adaptee">
+      <UniqueIdentifier>{156b63e7-d673-44ed-8e1a-4129012a5ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Adapter">
+      <UniqueIdentifier>{5a4b9a72-d330-406d-9575-dd14b4710b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Adaptee">
+      <UniqueIdentifier>{99f65b0c-db8a-4fd7-8eb3-3b17a1dcd67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Target">
+      <UniqueIdentifier>{ee1cd640-8aa2-4368-b7f7-b99606ec73eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Target">
+      <UniqueIdentifier>{fad6c90b-174d-465f-ba7f-645069754afc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Turkey.cpp">
+      <Filter>소스 파일\Adaptee</Filter>
+    </ClCompile>
+    <ClCompile Include="WildTurkey.cpp">
+      <Filter>소스 파일\Adaptee</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>소스 파일\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>소스 파일\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="TurkeyAdapter.cpp">
+      <Filter>소스 파일\Adapter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Turkey.h">
+      <Filter>헤더 파일\Adaptee</Filter>
+    </ClInclude>
+    <ClInclude Include="WildTurkey.h">
+      <Filter>헤더 파일\Adaptee</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>헤더 파일\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>헤더 파일\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="TurkeyAdapter.h">
+      <Filter>헤더 파일\Adapter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

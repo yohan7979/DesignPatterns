@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MVC Pattern", "MVC Pattern\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Command Pattern", "Command Pattern\Command Pattern.vcxproj", "{22618517-E413-420C-A949-E2C47590A8F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter Pattern", "Adapter Pattern\Adapter Pattern.vcxproj", "{F1C589AA-F266-4AE5-864D-42A7E6354220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{22618517-E413-420C-A949-E2C47590A8F6}.Release|x64.Build.0 = Release|x64
 		{22618517-E413-420C-A949-E2C47590A8F6}.Release|x86.ActiveCfg = Release|Win32
 		{22618517-E413-420C-A949-E2C47590A8F6}.Release|x86.Build.0 = Release|Win32
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Debug|x64.ActiveCfg = Debug|x64
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Debug|x64.Build.0 = Debug|x64
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Debug|x86.Build.0 = Debug|Win32
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Release|x64.ActiveCfg = Release|x64
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Release|x64.Build.0 = Release|x64
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Release|x86.ActiveCfg = Release|Win32
+		{F1C589AA-F266-4AE5-864D-42A7E6354220}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
